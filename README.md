@@ -10,11 +10,11 @@ kraken's main features are:
         Lightweight model files
         Variable recognition network architectures
 
-Installation
+# Installation
 
 When using a recent version of pip all dependencies will be installed from binary wheel packages, so installing build-essential or your distributions equivalent is often unnecessary. kraken only runs on Linux or Mac OS X. Windows is not supported.
 
-Install the latest 1.0 release through conda:
+# Install the latest 1.0 release through conda:
 
 $ wget https://raw.githubusercontent.com/mittagessen/kraken/master/environment.yml
 $ conda env create -f environment.yml
@@ -24,7 +24,7 @@ or:
 $ wget https://raw.githubusercontent.com/mittagessen/kraken/master/environment_cuda.yml
 $ conda env create -f environment_cuda.yml
 
-for CUDA acceleration with the appropriate hardware.
+# for CUDA acceleration with the appropriate hardware.
 
 It is also possible to install the same version from pypi:
 
@@ -34,11 +34,11 @@ Finally you'll have to scrounge up a model to do the actual recognition of chara
 
 $ kraken get 10.5281/zenodo.2577813
 
-A list of libre models available in the central repository can be retrieved by running:
+# A list of libre models available in the central repository can be retrieved by running:
 
 $ kraken list
 
-Quickstart
+# Quickstart
 
 Recognizing text on an image using the default parameters including the prerequisite steps of binarization and page segmentation:
 
@@ -60,6 +60,6 @@ All subcommands and options are documented. Use the help option to get more info
 Documentation
 
 Have a look at the docs
-Funding
 
-kraken is developed at Université PSL.
+
+# kraken is developed at Université PSL. Under Apache 2.0 License
